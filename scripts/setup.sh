@@ -34,8 +34,8 @@ fi
 
 # Create .env if missing
 if [ ! -f ".env" ]; then
-    echo "Creating .env from .env-template"
-    cp .env-template .env
+    echo ".env not present, creating .env from .env.template"
+    cp .env.template .env
     echo "Please edit .env with your configuration"
 fi
 
