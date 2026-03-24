@@ -1,0 +1,3 @@
+# GraphQL Server
+ariadne
+uvicorn
